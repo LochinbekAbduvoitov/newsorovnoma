@@ -94,6 +94,7 @@
     transition: .5s;
 }
 
+
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link {
         margin-right: 0;
@@ -126,6 +127,11 @@
         visibility: visible;
         transition: .5s;
         opacity: 1;
+    }
+
+    #header-carousel .carousel-item {
+        position: relative;
+        max-height: 80vh;
     }
 }
 
@@ -496,5 +502,5 @@
 }
 
 .footer .copyright a:hover {
-    color: var(--primary);
+    color:#68adc9;
 }
