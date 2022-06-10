@@ -288,18 +288,22 @@
 
 /*** Facts ***/
 .fact-item {
-    transition: .5s;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
 
 .fact-item:hover {
-    transform: translateY(-10px);
-    /* border: 0.1px solid var(--primary); */
     background: #FFFFFF !important;
     box-shadow: 0 0 45px rgba(0, 0, 0, .06);
-    }
+}
 
+.fact-item i{
+    transition:all 0.5s ease;
+
+}
+.fact-item:hover i{
+        transform: translateY(-10px);
+
+    }
 
 /*** Service ***/
 .service-item {
