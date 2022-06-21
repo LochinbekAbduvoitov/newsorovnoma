@@ -323,6 +323,7 @@
 
 .service-item img{
     transition: .5s; 
+    margin-bottom: 5px !important;
 }
 .service-item:hover img{
     transform: translateY(-10px);
